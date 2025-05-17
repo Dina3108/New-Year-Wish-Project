@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(18, 35, 35);
+}
+.Heading {
+  font-family: Square Peg, arial;
+  color: whitesmoke;
+  display: block;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+.click-button {
+  font-size: 60px;
+  color: whitesmoke;
+  background-color: orange;
+  font-family: Square Peg, arial;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.End-card {
+  color: yellowgreen;
+  font-family: Square Peg, arial;
+  font-size: 60px;
+  margin-top: 80px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {
+  .Heading {
+    margin: 0;
+    font-family: Square Peg, arial;
+    color: whitesmoke;
+    display: block;
+    font-size: 70px;
+    text-align: center;
+  }
+  .click-button {
+    margin: 0;
+    font-size: 60px;
+    color: whitesmoke;
+    background-color: orange;
+    font-family: Square Peg, arial;
+    cursor: pointer;
+    margin-top: 80px;
+  }
+  .End-card {
+    color: yellowgreen;
+    font-family: Square Peg, arial;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 80px;
+    text-align: center;
+  }
+}
